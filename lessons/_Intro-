@@ -1,0 +1,44 @@
+# cypress-basic-v2
+
+Sample project for the basic course of the Talking about online school.
+Exemplo basico do projeto da escola online Talking about.
+
+## Pre-requirements
+
+It is required to have Node.js and npm installed to run this project.
+É necessário ter Node.js e npm instalados para executar este projeto.
+
+> I used versions `v16.13.2` and `8.3.2` of Node.js and npm, respectively. I suggest you use the same or later versions.
+
+> Usei as versões `v16.13.2` e `8.3.2` do Node.js e npm, respectivamente. Eu sugiro que você use as mesmas versões ou versões posteriores.
+
+## Installation
+
+Run `npm install` (or `npm i` for the short version) to install the dev dependencies.
+
+## Tests
+
+You can the tests simulating a desktop or mobile viewport
+Você pode simular os testes em desktop ou mobile.
+
+### Desktop
+
+Run `npm test` (or `npm t` for the short version) to run the test in headless mode on a desktop viewport.
+Execute `npm test` (ou `npm t` para a versão curta) para executar o teste no modo headless em uma janela de visualização de desktop.
+
+Or, run `npm run cy:open` to open Cypress in interactive mode on a desktop viewport.
+Ou execute `npm run cy:open` para abrir o Cypress no modo interativo em uma viewport de desktop.
+
+### Mobile
+
+Run `npm run test:mobile` to run the test in headless mode on a mobile viewport.
+
+Or, run `npm run cy:open:mobile` to open Cypress in interactive mode on a mobile viewport.
+
+## Support this project
+
+If you want to support this project, leave a ⭐.
+
+___
+
+This project was created with 💚 by [Walmyr](https://walmyr.dev).
